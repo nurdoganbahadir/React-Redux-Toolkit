@@ -15,7 +15,9 @@ export const haberSlice = createSlice({
     loading: true,
   },
   reducers: {
-    clearHaber: () => {},
+    clearHaber: (state, action) => {
+      return {};
+    },
   },
 
   extraReducers: (builder) => {

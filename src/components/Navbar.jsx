@@ -21,11 +21,11 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, cursor: "pointer" }}
           >
-            Clarusway News
+            News
           </Typography>
 
           {email ? (
-            <Button color="inherit" onClick={signOut}>
+            <Button color="inherit" variant="outlined" onClick={signOut}>
               LogOut
             </Button>
           ) : (
