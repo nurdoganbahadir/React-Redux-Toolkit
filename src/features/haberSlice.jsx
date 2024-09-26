@@ -16,7 +16,9 @@ export const haberSlice = createSlice({
   },
   reducers: {
     clearHaber: (state, action) => {
-      return {};
+      state.haberler = state.haberler.filter(
+        (haber, index) => index !== action.payload
+      );
     },
   },
 

@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { getData } from "../features/haberSlice";
+import { clearHaber, getData } from "../features/haberSlice";
 import { useEffect } from "react";
 import loadingGif from "../assets/loading.gif";
 
@@ -20,7 +20,7 @@ const News = () => {
   }, [dispatch]);
 
   const { haberler, loading } = useSelector((state) => state.haberSlice);
-  console.log(haberler);
+  
   return (
     <>
       {loading ? (
@@ -49,7 +49,12 @@ const News = () => {
               </CardContent>
               <CardActions>
                 <Button size="small">CLEAR</Button>
-                <Button size="small" href={a.url} target="_blank">
+                <Button
+                  size="small"
+                  href={a.url}
+                  target="_blank"
+                  onClick={() => dispatch(clearHaber(index))}
+                >
                   DETAIL
                 </Button>
               </CardActions>
