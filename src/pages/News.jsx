@@ -26,7 +26,7 @@ const News = () => {
       {loading ? (
         <Box display="flex" alignItems="center" justifyContent="center">
           {" "}
-          <img src={loadingGif} alt="" />
+          <img src={loadingGif} alt="" height="500px" />
         </Box>
       ) : (
         <Box
