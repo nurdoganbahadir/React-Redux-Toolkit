@@ -1,29 +1,36 @@
-# Redux Toolkit Ornegi
+# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Redyx Toolkit Project with React.
 
-## `Kurulum`
+This project was developed with React. Redux Toolkit and Mateial UI were also used in the application. In the project, the user who logs in from the login page can see the news. Logout button is added for the user to log out.
 
-```
-npm install veya yarn
-```
+# Live Link of the Project
 
-## `Kullanilan Kutuphaneler`
+[Click Me](https://tny-rentacar-nurdoganbahadir.netlify.app)
 
-- `@reduxjs/toolkit`
-- `react-redux`
-- `axios`
-- `react-router-dom`
-- `@mui/material-ui`
-- `@emotion/react`
-- `@emotion/styled`
+# Libraries and Technologies I use
 
-## `Kullanilacak API`:
+- Material UI
+- Redux Toolkit
+- Axios
+- react router dom
+  
 
-- https://newsapi.org/
-  (Get Key butonuna tiklanarak key alinabilir)
 
-- URL:
-  const url = `https://newsapi.org/v2/top-headlines?country=tr&apiKey=${API_KEY}`;
+# How to install
 
-## `Kullanilacak Araclar`
+In the project directory, open the terminal and run:
 
-- `Redux Dev Tools` : Chrome uzerinde calisan ve global state uzerinde yapilan tum degisikliklerin takip edilmesini saglayan tarayici uzantisidir. Indirmek icin [tiklayiniz.](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?utm_source=chrome-ntp-icon)`
+### `npm install`
+
+This will install the necessary dependencies. After that, you can run:
+
+### `npm start`
+
+
+
+
+
+
+
+# How does my project look
+
+![Redux Toolkit](./project.gif)
