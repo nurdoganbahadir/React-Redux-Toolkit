@@ -13,6 +13,8 @@ export const haberSlice = createSlice({
   initialState: {
     haberler: [],
     loading: true,
+    status: "idle",
+    error: null,
   },
   reducers: {
     clearHaber: (state, action) => {
@@ -31,6 +33,10 @@ export const haberSlice = createSlice({
         state.haberler = action.payload;
         state.loading = false;
       });
+    // .addCase(getData.rejected, (state, action) => {
+    //   state.error = action.payload;
+    //   state.status = "fail"
+    // });
   },
 });
 export const { clearHaber } = haberSlice.actions;

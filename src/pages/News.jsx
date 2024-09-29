@@ -20,7 +20,7 @@ const News = () => {
   }, [dispatch]);
 
   const { haberler, loading } = useSelector((state) => state.haberSlice);
-  
+
   return (
     <>
       {loading ? (
@@ -48,13 +48,13 @@ const News = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">CLEAR</Button>
                 <Button
                   size="small"
-                  href={a.url}
-                  target="_blank"
                   onClick={() => dispatch(clearHaber(index))}
                 >
+                  CLEAR
+                </Button>
+                <Button size="small" href={a.url} target="_blank">
                   DETAIL
                 </Button>
               </CardActions>
