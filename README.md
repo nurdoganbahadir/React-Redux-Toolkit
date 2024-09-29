@@ -1,4 +1,4 @@
-# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Redyx Toolkit Project with React.
+# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Redux Toolkit Project with React.
 
 This project was developed with React. Redux Toolkit and Mateial UI were also used in the application. In the project, the user who logs in from the login page can see the news. Logout button is added for the user to log out.
 
