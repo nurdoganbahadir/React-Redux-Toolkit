@@ -4,7 +4,7 @@ This project was developed with React. Redux Toolkit and Mateial UI were also us
 
 # Live Link of the Project
 
-[Click Me](https://tny-rentacar-nurdoganbahadir.netlify.app)
+[Click Me](https://redux-toolkit-nurdoganbahadir.netlify.app/login)
 
 # Libraries and Technologies I use
 
